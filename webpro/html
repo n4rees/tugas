@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amara Safira</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+
+  <body id="top">
+  <header>
+    <div class="logo">n4rees</div>
+    <nav>
+      <a href="#top">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#look">LOOK</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <section class="intro-section">
+    <div class="intro-text">
+      <h1 class="text-animate">I’m Amara <span> Safira Nariswari</span></h1>
+      <p class="text-animate">Amara Safira mendirikan GlamMiraé karena hasrat mendalam terhadap dunia kecantikan, gaya hidup, dan ekspresi diri.</p>
+      <div class="social-icons">
+        <a href="https://instagram.com/amarasafiraa" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://tiktok.com/@n4rees" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://x.com/sayhitonarees" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="intro-image-wrapper">
+      <div class="bg-shape"></div>
+      <img src="style/fotoamara.png" alt="Profile Image" class="animate-click">
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <h2 class="text-animate"> About Amara!</h2>
+    <p class="text-animate">Awal Mula Dia Mendirikan GlamMiraé!</p>
+    <div class="about-options">
+      <div class="about-card-v2">
+        <h3>She Try!</h3>
+        <p>Berawal karena ketertarikan dalam dunia make up sedari remaja yang membuat Amara suka mencoba-coba tanpa bimbingan</p>
+      </div>
+      <div class="about-card-v2">
+        <h3>She Learn!</h3>
+        <p>Menekuni bidang Bisnis, Amara membawa visi untuk menghadirkan bisnis dan inspirasi agar setiap individu tampil percaya diri</p>
+      </div>
+      <div class="about-card-v2">
+        <h3>She Slay!</h3>
+        <p>Mulai mendirikan GlamMiraé untuk remaja yang ingin belajar make up, dari pemula hingga profesional</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="look-section" id="look">
+    <h2 class="text-animate">About GlamMiraé!</h2>
+    <p>Temukan Tampilan Kecantikanmu Bersama GlamMiraé!</p>
+    <div class="look-options">
+      <div class="look-card">
+        <img src="style/softglam.jpg" alt="softglam" class="animate-click">
+        <p>Soft Glam Make Up</p>
+      </div>
+      <div class="look-card">
+        <img src="style/darkfeminime.jpg" alt="darkfeminime" class="animate-click">
+        <p>Dark Feminime Make Up</p>
+      </div>
+      <div class="look-card">
+        <img src="style/latina.jpg" alt="latina" class="animate-click">
+        <p>Latina Make Up</p>
+      </div>
+      <div class="look-card">
+        <img src="style/grunge.jpg" alt="grunge" class="animate-click">
+        <p>Grunge Make Up</p>
+      </div>
+      <div class="look-card">
+        <img src="style/douyin.jpg" alt="douyin" class="animate-click">
+        <p>Douyin Make Up</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="what-section">
+    <h2>What's in GlamMiraé?</h2>
+    <p>Cari Tahu Lebih Lanjut Tentang GlamMiraé!</p>
+    <div class="what-options">
+      <div class="what-card">
+        <img src="style/try-it.jpg" alt="try-it" class="animate-click">
+        <p>Try It!</p>
+        Cobain dulu Make Up look yang kamu suka dan kamu impiin banget buat tampil kaya gitu! GlamMiraé hadir membawakan Virtual Try-On Make Up!
+      </div>
+      <div class="what-card">
+        <img src="style/learn-it.jpg" alt="learn-it" class="animate-click">
+        <p>Learn It!</p>
+        Belajar teknik Make Up dari dasar sampai kamu bener-bener bisa dan sesuai yang kamu mau! GlamMiraé membawakan Tutorial Make Up yang menarik!
+      </div>
+      <div class="what-card">
+        <img src="style/slay-it.jpg" alt="slay-it" class="animate-click">
+        <p>Slay It!</p>
+        Keluar rumah dengan tampil percaya diri dan ekspresikan dirimu sepenuhnya! Kalau belum puas, Konsultasikan bersama Beauty Expert, ya!
+      </div>
+    </div>
+    <a href="https://n4rees.lovestoblog.cm/" target="_blank" style="
+      display: inline-block;
+      padding: 12px 28px;
+      background-color: #2e1c4b;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 15px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(47, 30, 51, 0.1);
+      transition: background-color 0.3s ease;
+    " onmouseover="this.style.backgroundColor='#4a3270'" onmouseout="this.style.backgroundColor='#2e1c4b'">
+      Check It Now!
+    </a>
+  </section> 
+
+  <section id="contact">
+    <h2 class="text-animate">Contact Me!</h2>
+    <form>
+      <label for="name">Nama Anda</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email Anda</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Pesan Anda</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+ 
+  <footer style="background-color: #2e1c4b; color: white; text-align: center; padding: 20px; font-size: 14px;">
+    © 2025 Amara Safira Nariswari — Built with ♥ by Amara Safira
+  </footer>
+
+</body>
+</html>
